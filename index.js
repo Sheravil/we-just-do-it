@@ -1,5 +1,4 @@
-
-import fetch from 'node-fetch' ;
+import fetch from 'node-fetch'
   
 fetch('http://hasanadiguzel.com.tr/api/kurgetir')
 .then(response => response.json())
@@ -11,7 +10,7 @@ fetch('http://hasanadiguzel.com.tr/api/kurgetir')
         let otv = (kdv + araba) * (matrah);
         return otv
     };
-    
+
 console.log("€-KURU  :",euro,"€")
 console.log("₺-ARAÇ  :", araba,"₺")  ;
 console.log("₺-KDV   :", kdv,"₺")  ;
